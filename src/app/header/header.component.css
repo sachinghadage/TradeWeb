@@ -1,0 +1,260 @@
+.header{
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+.logo{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: #13b1c1;
+}
+
+.logo span{
+    color: white;
+    font-size: 15px;
+    
+}
+
+.logo2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 11px;
+    color: gray;
+}
+
+.logo2 span {
+    color:#2c9daa;
+}
+
+  .dropbtn{
+    width: 40px;
+    height: 20px;
+    border-radius: 6px;
+    position: absolute;
+    left: 500px;
+    top: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border: 1px solid black;
+    color: white;
+    background-color: grey;
+    font-weight: 600;
+    
+}
+.dropbtn:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #d4c9c9;
+    position: absolute;
+    top: 6px;
+    left: 27px;
+}
+
+.dropbtn:hover:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 5px solid #d4c9c9;
+    border-top: 0px solid #d4c9c9;
+    position: absolute;
+    top: 6px;
+    left: 27px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 500px;
+    background-color: #f9f9f9;
+    min-width: 40px;
+    font-size: 14PX;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    background-color: rgb(156, 154, 154);
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  .dropbtn2{
+    width: 40px;
+    height: 20px;
+    border-radius: 6px;
+    position: absolute;
+    left: 560px;
+    top: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border: 1px solid black;
+    color: white;
+    background-color: grey;
+    font-weight: 600;
+}
+
+.dropbtn2:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #d4c9c9;
+    position: absolute;
+    top: 6px;
+    left: 27px;
+}
+
+.dropbtn2:hover:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 5px solid #d4c9c9;
+    border-top: 0px solid #d4c9c9;
+    position: absolute;
+    top: 6px;
+    left: 27px;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    left: 560px;
+    background-color: #f9f9f9;
+    min-width: 40px;
+    font-size: 14PX;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content2 a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    background-color: rgb(156, 154, 154);
+  }
+
+  .dropdown-content2 a:hover {background-color: #f1f1f1}
+
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+  }
+
+  .circlebtn{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 35px;
+    left: 1000px;
+    border: 3px solid #0ccac1;
+    border-radius: 100%;
+    color: #0ccac1;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+  }
+  
+
+  .telegrambtn{
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    top: 35px;
+    left: 1040px;
+    border: 1px solid #0ccac1;
+    border-radius: 8%;
+    color:white;
+    background-color: #0ccac1;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 12px;  
+  }
+
+  /* .telegrambtn .teleimg{
+    /* background-image: url("src\assets\image\telegramapp.png");
+    position: relative;
+    top: 2px;
+    left: 4px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: white; */
+  
+
+    .toggle {
+      position: relative;
+      top: -10px;
+      left: 1200px;
+      display: inline-block;
+      width: 40px;
+      height: 20px;
+      background-color: #201d3e;
+      border-radius: 30px;
+  }
+
+  .toggle:after {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #0ccac1;
+    top: 1px; 
+    left: 1px;
+    transition:  all 0.5s;
+}
+
+.checkbox:checked + .toggle::after {
+  left : 21px; 
+}
+
+/* .checkbox:checked + .toggle {
+  background-color:  #201d3e;
+} */
+
+.checkbox { 
+  display : none;
+}
+
+
+.table{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  height: 30%;
+  width: 90%;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.table tr th{
+  color: grey;
+  font-family:  'Oswald', sans-serif;
+  font-weight: 200;
+  
+} 
+
+.table tr td{
+  
+  background-color:#3f3f52;
+  color:white;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
+  
+
+  
+
